@@ -1,0 +1,85 @@
+.meme-details-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .meme-image {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+  }
+  
+  .meme-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .like-button, .share-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .like-button {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .like-button:hover {
+    background-color: #e60000;
+  }
+  
+  .share-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .share-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .comments-section {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .comment {
+    background: #f3f3f3;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+  

@@ -1,0 +1,53 @@
+.meme-upload-form {
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meme-upload-form h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .meme-preview {
+    width: 100%;
+    max-height: 300px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  

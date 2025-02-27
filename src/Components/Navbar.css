@@ -1,0 +1,96 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .navbar.dark {
+    background: #1c1c1c;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff;
+    transform: translateY(-2px);
+  }
+  
+  /* Active Link */
+  .nav-links .active {
+    color: #007bff;
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  /* Dark Mode Button */
+  .dark-mode-toggle {
+    padding: 8px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .dark-mode-toggle:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dark Mode Adjustments */
+  .navbar.dark .nav-links a {
+    color: white;
+  }
+  
+  .navbar.dark .nav-links a:hover {
+    color: #1e90ff;
+  }
+  
+  .navbar.dark .dark-mode-toggle {
+    background-color: #ffcc00;
+    color: black;
+  }
+  
+  .navbar.dark .dark-mode-toggle:hover {
+    background-color: #ffdb4d;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .dark-mode-toggle {
+      margin-top: 10px;
+    }
+  }
+  

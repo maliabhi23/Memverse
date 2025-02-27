@@ -1,0 +1,66 @@
+.meme-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-bottom: 20px;
+  }
+  
+  .filters select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .meme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 10px;
+  }
+  
+  .meme-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .meme-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .meme-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .meme-name {
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .loading-text {
+    font-size: 18px;
+    color: gray;
+    margin-top: 20px;
+  }
+  
